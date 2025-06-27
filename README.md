@@ -1,4 +1,4 @@
-Hand Controlled volume via machine vision
+# Hand Controlled volume via machine vision
 
 with this tool, you can control your computer's volume just by using your hand gestures with this python project. (powered by opencv and mediapipe)
 
@@ -21,14 +21,17 @@ with this tool, you can control your computer's volume just by using your hand g
 
 ```bash
 git clone https://github.com/jimmydin7/hand-to-volume-machine-vision.git
-cd hand-to-volume-machine-vision```
+cd hand-to-volume-machine-vision
+```
 
 ### 2. Install requirements
 
 ```bash
-python -m pip install -r requirements.txt```
+python -m pip install -r requirements.txt
+```
 
 ### 3. Run the script
 
 ```bash
-python main.py```
+python main.py
+```
