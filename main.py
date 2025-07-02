@@ -90,7 +90,10 @@ while True:
 
             
 
+    cv2.namedWindow("Video Feed", cv2.WND_PROP_FULLSCREEN)
+    cv2.setWindowProperty("Video Feed", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
     cv2.imshow("Video Feed", img)
+
     if cv2.waitKey(1) & 0xFF == ord('q'):
         lg.logError("Closing Video Capture... - BREAK!")
         break
